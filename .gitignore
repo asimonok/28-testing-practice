@@ -1,0 +1,4 @@
+/node_modules/
+/tests/**/final_*
+/coverage/
+/.idea/
