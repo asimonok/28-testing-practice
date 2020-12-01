@@ -6,7 +6,8 @@
   "scripts": {
     "server": "serve src",
     "build": "webpack",
-    "test": "jest --config=./jest.config.js"
+    "test": "jest --config=./jest.config.js tests/*.spec.js",
+    "test:e2e": "jest --config=./jest.config.js e2e/*.spec.js"
   },
   "keywords": [],
   "author": "",

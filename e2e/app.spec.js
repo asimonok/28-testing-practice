@@ -13,7 +13,9 @@ beforeAll(async () => {
 });
 
 // 3
-test('Test saving name', async () => {});
+test('Test saving name', async () => {
+  expect(true).toBeTruthy()
+});
 
 // 4
 afterAll(() => {
