@@ -1,5 +1,3 @@
 /node_modules/
-/tests/**/*.final.js
-/e2e/**/*.final.js
 /coverage/
 /.idea/

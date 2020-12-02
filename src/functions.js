@@ -1,5 +1,8 @@
 export const isValid = (name = '') => {
-  return name.trim() !== ''
+  if (name.trim().length > 0) {
+    return name.trim() === 'Alex'
+  }
+  return false
 }
 
 export const sendData = (name, save) => {
