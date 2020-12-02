@@ -1,6 +1,6 @@
 import { FormHandler, isValid, sendData } from './functions'
 
-const formHandler = new FormHandler(isValid, sendData(name, (name) => localStorage.setItem('name', name)))
+const formHandler = new FormHandler(isValid, (name) => sendData(name, (name) => localStorage.setItem('name', name)))
 
 const createFormHtml = document => {
   const bodyElement = document.querySelector('body')
